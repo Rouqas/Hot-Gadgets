@@ -21,6 +21,7 @@
 }
 b{
     color: #ffbb00;
+    cursor: pointer;
 }
 .card-footer{
     background-color: white;
@@ -31,9 +32,20 @@ b{
 
 }
 
-.col-md-6 img{
-    width: 100%;
+.col-md-5 img{
+    
+    width: 120%;
 }
 .box{
-    box-shadow: 2px 2px 5px lightgrey;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px lightgrey;
+    padding-top: 50px;
+    height: 250px;
+    width: 270px;
+    margin: 0 20px 30px 0;
+}
+.box h5{
+    margin: 15px;
 }
